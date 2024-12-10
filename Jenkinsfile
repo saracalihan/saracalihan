@@ -13,8 +13,7 @@ pipeline {
           steps {
             sh '''pwd
 ls
-tree .
-'''
+docker compose up'''
           }
         }
 
